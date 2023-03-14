@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    padding: -1% 93%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    flex: 1;
+    text-align: center;
+}
+
+.nav ul li {
+    list-style: none;
+    display: list-item;
+    padding: 8px 10px;
+    position: relative;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.btn {
+    background-color: lawngreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.isoOtsikko {
+    line-height: 140px;
+    margin: 0px;
+    padding: 0px;
+    color: #4CAF50;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+
+
+}
+
+.teksti {
+    font-size: large;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.pienotsikko {
+    line-height: 80px;
+    font-size: x-large;
+    position: relative;
+    text-align: center;
+    color: #4CAF50;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.vali {
+    margin: 6px;
+    padding: 10px;
+}
+
+.pienivali {
+    margin: 2px;
+    padding: 10px;
+}
+
+.tosipienivali {
+    margin: 1px;
+    padding: 5px;
+}
+
+.otsikko {
+    line-height: 140px;
+    margin: 0px;
+    padding: 0px;
+    color: #4CAF50;
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 600px) {
+    .otsikko {
+        line-height: 80px;
+    }
+    ul{
+        line-height: 50px;
+        
+    }
+}
