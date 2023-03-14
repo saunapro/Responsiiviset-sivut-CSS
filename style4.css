@@ -46,29 +46,14 @@ nav{
     text-align: center;
     font-size: xx-large;
     
+
 }
-.teksti{
-    font-size: large;
-    position:relative;
-    text-align: center;
-    color:black;
-}
-.nimike{
-    font-size:x-large;
-    position:relative;
-    text-align: center;
-    color:black;
-}
-.vali{
-    margin: 6px;
-    padding: 10px;
-}
+
 .table{
-margin: 2rem auto;
+margin: 1rem auto;
 padding: 0;
 border: 4px solid green;
-position: relative;
-text-align: center;
+position:relative;
 width: 60%;
 }
 td{
@@ -81,11 +66,7 @@ color:green;
 table, th{
     border: 2px solid green;
     border-collapse: collapse;
-}
-.teksti1{
-text-align:center;
-margin: 4px;
-padding: 2px;
+
 }
 
 ::-webkit-scrollbar{

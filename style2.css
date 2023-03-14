@@ -39,7 +39,7 @@ nav{
 }
 .otsikko{
     line-height: 140px;
-    margin: 0px;
+    margin: -1px;
     padding: 0px;
     color:#4CAF50;
     position: relative;
@@ -59,9 +59,15 @@ nav{
     text-align: center;
     color:black;
 }
+
 .vali{
     margin: 6px;
     padding: 10px;
+}
+.vali2{
+
+    margin: 6px;
+    padding: 6px;
 }
 @media screen and (max-width: 600px)
 {
