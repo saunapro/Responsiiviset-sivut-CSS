@@ -98,9 +98,10 @@ nav {
     font-size: x-large;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .otsikko {
         line-height: 80px;
+        font-size: x-large;
     }
     ul{
         line-height: 50px;
